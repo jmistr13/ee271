@@ -1,0 +1,8 @@
+Lab 1
+a)	Name: Jesse Mistr
+b)	mux4_1 Circuit Explanation:
+    mux4_1’s output appears to be storing 4 alternating off/on patterns starting with the largest length off/on (off for 8, on for 8) and getting smaller until off for 1 and on for 1. These are broken into counts of 16 each. I’m inclined to believe that it is storing the data for a 4 variable (16 bit) output. We can see this in the mux2s, with i00 alternating every 8 counts, i01 alternating every 4, i10 every 2, and i11 every other one.
+c)	When the signal is TRUE, the LED lights up.
+d)	When the switch is in the up position, the signal is TRUE.
+e)	When the button is not pressed, the signal is TRUE.
+Estimated hours: 4 hours (including installing software)
